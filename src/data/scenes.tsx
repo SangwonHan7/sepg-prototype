@@ -5,12 +5,6 @@ export const scenes: Record<string, Scene> = {
     id: 'start',
     background: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=2070',
     text: '내 이름은 미스터춘. CNS 건설으로 이직하게 되었다. 나의 역할은?',
-    content: (
-      <div className="bg-white/10 p-4 rounded-lg text-white">
-        <h2 className="text-xl font-bold mb-2">CNS 건설 회사 소개</h2>
-        <p>CNS 건설은 혁신적인 건설 기술과 AI 시스템을 도입하여 스마트 건설을 선도하는 기업입니다.</p>
-      </div>
-    ),
     choices: [
       { text: '현장 관리자(PM)', nextScene: 'pm' },
       { text: 'IT 빌드센터 개발자/엔지니어', nextScene: 'dev' },
